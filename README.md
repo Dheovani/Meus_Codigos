@@ -1,2 +1,4 @@
 # Meus_Codigos
-Aqui vou postar alguns cógidos que desenvolvi. Não tenho experiência com nenhum projeto a nível profissional, os códigos que desenvolvi tinham o intuito exclusivo de melhorar minha capacidade de programar e desenvolver meu raciocínio lógico.
+jogodavelha.py: Desenvolvi esse código com o intuito de desenvolver um sistema básico capaz de simular um jogo. Apesar de ser extremamente simples, funciona satisfatóriamente; no futuro, pretendo aprimorá-lo adicionando ao sistema jogadas que aumentem a dificuldade.
+JogoDaForca.java: A versão em Java do jogo da forca é apenas uma "tradução" da versão em Python. Eu desenvolvi a versão Python como um trabalho da faculdade, enquanto que a versão Java foi nos meus primeiros contatos com a linguagem.
+Obinho: Um trabalho de faculdade realizado ano passado.
