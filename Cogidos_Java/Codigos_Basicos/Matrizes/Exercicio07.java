@@ -1,6 +1,5 @@
 package FaculPOO.Abril.Matrizes;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Exercicio07 {
@@ -11,9 +10,11 @@ public class Exercicio07 {
         System.out.println("Informe a quantidade de linhas da primeira matriz:");
         int linhas = leitorMatriz.nextInt();
         System.out.println("Informe a quantidade de colunas da primeira matriz:");
-        int colunas = leitorMatriz.nextInt();
-        int[][] matrizA = new int[linhas][colunas];
-        int[][] matrizB = new int[colunas][linhas];
+        int colunasA = leitorMatriz.nextInt();
+        System.out.println("Informe a quantidade de colunas da segunda matriz:");
+        int colunasB = leitorMatriz.nextInt();
+        int[][] matrizA = new int[linhas][colunasA];
+        int[][] matrizB = new int[colunasA][colunasB];
         // Matrizes criadas
 
         System.out.println("Defina os valores da matriz A:");
@@ -22,7 +23,7 @@ public class Exercicio07 {
         coletorDeValores(matrizB, leitorMatriz);
         // Valores adicionados às matrizes
 
-        int[][] matrizResult = new int[linhas][linhas];
+        int[][] matrizResult = new int[linhas][colunasB];
         for(int c = 0; c < matrizResult.length; c ++) {
             for(int d = 0; d < matrizResult[c].length; d ++) {
                 for(int e = 0; e < matrizA[c].length; e ++) {
